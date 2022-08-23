@@ -1,0 +1,6 @@
+framework module Pods_omdbAPITests {
+  umbrella header "Pods-omdbAPITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
