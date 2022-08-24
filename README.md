@@ -7,6 +7,12 @@ http://omdbapi.com/
   - Viper Architecture 
   - Alamofire (Pod install)
   - Kingfisher (SPM)
-![1](https://user-images.githubusercontent.com/79005943/186437082-4539e199-c380-41c2-9d89-235f0bd1a8f9.png)
-![3](https://user-images.githubusercontent.com/79005943/186437125-f0061078-6403-4ebf-bbfd-6b93d2444b6e.png)
-![2](https://user-images.githubusercontent.com/79005943/186437153-73eb806c-79de-4fc7-a28a-b10247f315fa.png)
+
+ - Home Page
+![Home](https://user-images.githubusercontent.com/79005943/186437841-ba7fb6f5-e381-4a19-9478-c5c36303a379.png)
+
+  - Detay Page 
+![Detay](https://user-images.githubusercontent.com/79005943/186437855-b1acb322-7244-4e03-8191-1e2a17147d68.png)
+
+  -  Search
+![Search](https://user-images.githubusercontent.com/79005943/186437866-5df3f01d-55c9-4428-b4b1-bbcc8129d2ac.png)
