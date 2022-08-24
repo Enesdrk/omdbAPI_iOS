@@ -27,9 +27,6 @@
 		D40365C928B2C4CA00A1F59A /* AramaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40365C828B2C4CA00A1F59A /* AramaInteractor.swift */; };
 		D473E20B28B39D1F00C45C77 /* cellMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473E20A28B39D1F00C45C77 /* cellMovies.swift */; };
 		D473E20D28B39DBA00C45C77 /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473E20C28B39DBA00C45C77 /* DetayViewController.swift */; };
-		D473E21D28B3BE2900C45C77 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473E21C28B3BE2900C45C77 /* Movie.swift */; };
-		D473E21F28B3C09100C45C77 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473E21E28B3C09100C45C77 /* Ratings.swift */; };
-		D473E22128B3C0AB00C45C77 /* MovieCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473E22028B3C0AB00C45C77 /* MovieCevap.swift */; };
 		D473E22428B3C30E00C45C77 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D473E22328B3C30E00C45C77 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
@@ -81,9 +78,6 @@
 		D40365C828B2C4CA00A1F59A /* AramaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AramaInteractor.swift; sourceTree = "<group>"; };
 		D473E20A28B39D1F00C45C77 /* cellMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellMovies.swift; sourceTree = "<group>"; };
 		D473E20C28B39DBA00C45C77 /* DetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
-		D473E21C28B3BE2900C45C77 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		D473E21E28B3C09100C45C77 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
-		D473E22028B3C0AB00C45C77 /* MovieCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCevap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,9 +188,9 @@
 		D40365B628B2C04000A1F59A /* app-module */ = {
 			isa = PBXGroup;
 			children = (
-				D441F2C728B4F3CF00F86975 /* detaypage-module */,
 				D40365BD28B2C18900A1F59A /* entity */,
 				D40365B728B2C04900A1F59A /* anasafya-module */,
+				D441F2C728B4F3CF00F86975 /* detaypage-module */,
 			);
 			path = "app-module";
 			sourceTree = "<group>";
@@ -204,9 +198,9 @@
 		D40365B728B2C04900A1F59A /* anasafya-module */ = {
 			isa = PBXGroup;
 			children = (
+				D40365B828B2C05800A1F59A /* view */,
 				D40365C728B2C4BE00A1F59A /* interactor */,
 				D40365C228B2C29800A1F59A /* presenter */,
-				D40365B828B2C05800A1F59A /* view */,
 				D40365BA28B2C0DD00A1F59A /* protocol */,
 				D40365B928B2C05E00A1F59A /* router */,
 			);
@@ -243,9 +237,6 @@
 			children = (
 				D40365BE28B2C19500A1F59A /* Search.swift */,
 				D40365C028B2C26800A1F59A /* SearchCevap.swift */,
-				D473E21C28B3BE2900C45C77 /* Movie.swift */,
-				D473E21E28B3C09100C45C77 /* Ratings.swift */,
-				D473E22028B3C0AB00C45C77 /* MovieCevap.swift */,
 			);
 			path = entity;
 			sourceTree = "<group>";
@@ -529,7 +520,6 @@
 			files = (
 				D40365C628B2C2FE00A1F59A /* AnasayfaRouter.swift in Sources */,
 				D473E20D28B39DBA00C45C77 /* DetayViewController.swift in Sources */,
-				D473E21D28B3BE2900C45C77 /* Movie.swift in Sources */,
 				D40365C928B2C4CA00A1F59A /* AramaInteractor.swift in Sources */,
 				D473E20B28B39D1F00C45C77 /* cellMovies.swift in Sources */,
 				D403658928B2B4B200A1F59A /* AnasayfaVC.swift in Sources */,
@@ -537,10 +527,8 @@
 				D403658528B2B4B200A1F59A /* AppDelegate.swift in Sources */,
 				D40365BF28B2C19500A1F59A /* Search.swift in Sources */,
 				D403658728B2B4B200A1F59A /* SceneDelegate.swift in Sources */,
-				D473E22128B3C0AB00C45C77 /* MovieCevap.swift in Sources */,
 				D40365C428B2C2AC00A1F59A /* AnasayfaPresenter.swift in Sources */,
 				D40365C128B2C26800A1F59A /* SearchCevap.swift in Sources */,
-				D473E21F28B3C09100C45C77 /* Ratings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

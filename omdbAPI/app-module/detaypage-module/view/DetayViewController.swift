@@ -23,6 +23,7 @@ class DetayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+               
 
         imgMovie.layer.cornerRadius = 0.9
         

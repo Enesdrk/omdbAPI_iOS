@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--Search-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AnasayfaVC" customModule="omdbAPI" customModuleProvider="target" sceneMemberID="viewController">
@@ -96,7 +96,7 @@
                             <constraint firstItem="HY1-L1-92U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uSL-u9-DQk"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="azQ-0t-699"/>
+                    <navigationItem key="navigationItem" title="Search" id="azQ-0t-699"/>
                     <connections>
                         <outlet property="movieListTableView" destination="HY1-L1-92U" id="zi9-BC-Ie7"/>
                         <outlet property="searchBar" destination="i4g-fg-SJo" id="Cf4-PQ-Kwv"/>
@@ -226,6 +226,7 @@
             <point key="canvasLocation" x="-17.39130434782609" y="69.642857142857139"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="labelColor"/>
     <resources>
         <image name="blur" width="208.66667175292969" height="208.66667175292969"/>
         <systemColor name="labelColor">

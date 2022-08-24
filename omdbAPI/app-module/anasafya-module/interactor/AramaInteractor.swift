@@ -17,7 +17,6 @@ class AnasayfaInteractor : PresenterToInteractorAnasayfaProtocol {
         
         if let data = response.data {
             do{
-                print("do")
                 let cevap = try JSONDecoder().decode(SearchCevap.self, from: data)
                 
                 var liste = [Search]()
